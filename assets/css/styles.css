@@ -686,9 +686,8 @@ img {
  }
  #skills_logo{
   width: 80%;
-  grid-template-columns: repeat(4,1fr);
-  grid-template-rows: 2,1fr;
- }
+  grid-template-columns: repeat(4,3fr);
+ 
 }
 #changeColor{
    display: flex;
@@ -725,4 +724,5 @@ body{
 }
 .l-header{
   background-color: black;
+}
 }
