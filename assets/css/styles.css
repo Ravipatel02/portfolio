@@ -656,8 +656,8 @@ img {
   grid-template-rows: auto;
 }
 #skills_logo>img{
+  height: 100%;
   height: 60%;
-  height: 80%;
   border-radius: 10px;
 }
 #skills_logo>img:hover{
@@ -686,8 +686,9 @@ img {
  }
  #skills_logo{
   width: 80%;
-  grid-template-columns: repeat(4,3fr);
- 
+  grid-template-columns: repeat(4,1fr);
+  grid-template-rows: 2,1fr;
+ }
 }
 #changeColor{
    display: flex;
@@ -724,5 +725,4 @@ body{
 }
 .l-header{
   background-color: black;
-}
 }
